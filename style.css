@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Caprasimo&family=Edu+SA+Beginner&family=Playfair+Display&family=Roboto:wght@300&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    padding: 0 23px;
+    height: 12vh;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    background: rgb(0, 112, 146);
+}
+header nav a{
+    color: white;
+    padding: 23px;
+    transition: all 0.1s linear ;
+    font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Caprasimo', cursive;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
+a:hover{
+    color: rgb(228, 148, 0);
+
+}
+header .search{
+    display: flex;
+    
+    justify-content: center;
+align-items: center;
+    height: 3rem;
+    width: 370px;
+    border-radius: 25rem;
+}
+.search input{
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    border-radius: 25rem 0 0 25rem;
+    transition: all .1s linear;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+.search .icon{
+    background: white;
+    font-size: 19px;
+    height: 3rem;
+    margin: 29px 0;
+    width: 50px;
+    border-radius: 0px 25px  25px 0px;
+top: 0;
+right: 33rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer{
+    background : rgb(0, 112, 146);
+    color: white;
+    height: 11vh;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}.search:hover{
+  box-shadow: 0 6px 5px   rgba(0, 0, 0, 0.5);
+}
+.title{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title2{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expo{
+    text-decoration: underline;
+}
+.int{
+    text-decoration: underline;
+}
+.evo{
+    text-decoration: underline;
+}
+
+
